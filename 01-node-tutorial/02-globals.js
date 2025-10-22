@@ -6,7 +6,13 @@
 // module     - info about current module (file)
 // process    - info about env where the program is being executed
 
-console.log(__dirname)
-const test = setInterval(() => {
-  console.log('hello world')
-}, 1000)
+
+console.log(__dirname);
+global.myVariable = "Hello";
+console.log("🚀 ~ global:", global);
+
+// const test = setInterval(() => {
+//   console.log("hello world");
+// }, 1000);
+
+console.log(module);
