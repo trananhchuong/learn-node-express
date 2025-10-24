@@ -3,8 +3,8 @@
 const names = require('./04-names')
 const sayHi = require('./05-utils')
 const app = require('./06-alternative-flavor')
-console.log("🚀 ~ app:", app)
+require('./07-mind-grenade')
 
-sayHi('susan')
-sayHi(names.john)
-sayHi(names.peter)
+// sayHi('susan')
+// sayHi(names.john)
+// sayHi(names.peter)
